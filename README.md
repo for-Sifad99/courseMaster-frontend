@@ -154,10 +154,15 @@ coursemaster/
 
 4. Access the application:
    - Frontend: http://localhost:3000
+   - Live Deployment: https://frontend-pi-silk-xmakau3gmx.vercel.app/
    - Backend API: http://localhost:5000
 
-### Environment Variables
+### Admin Credentials
+For testing the administrative panel, use the following credentials:
+- Email: admin@example.com
+- Password: admin123
 
+### Environment Variables
 Each component requires specific environment variables:
 - **Backend**: PORT, MONGODB_URI, JWT_SECRET
 - **Frontend**: REACT_APP_API_URL
